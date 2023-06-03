@@ -1,0 +1,42 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh label="chameleon4k.pts" visible="0" filename="data_partII/data_partII/chameleon4k.pts" idInFile="-1">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" solidColor="192 192 192 255" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">000111010000000010000100010001001110000010100000000100111010000000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="Poisson mesh" visible="0" filename="layer.ply" idInFile="-1">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" solidColor="192 192 192 255" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001010000000010000100010001011110000010100000000100111010000000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="MINERVA-0.obj" visible="0" filename="data_partII/data_partII/MINERVA-0.obj" idInFile="-1">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" solidColor="192 192 192 255" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">101001000000010000000100000001011100000010100000110100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="fandisk_V_IN_0.6.ply" visible="0" filename="data_partII/data_partII/fandisk_V_IN_0.6.ply" idInFile="-1">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" solidColor="192 192 192 255" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="hand-ok-closed2.obj" visible="0" filename="data_partII/data_partII/hand-ok-closed2.obj" idInFile="-1">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" solidColor="192 192 192 255" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="mannequin.obj" visible="1" filename="data_partII/data_partII/mannequin.obj" idInFile="-1">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" solidColor="192 192 192 255" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001010000000010000100010001010110010010100000000100111010000000001001</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>

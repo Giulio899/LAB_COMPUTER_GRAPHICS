@@ -1,0 +1,22 @@
+﻿  LAB_03.cpp
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(408,53): warning C4244: '=': conversion from 'GLint' to 'GLfloat', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(539,31): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(592,61): warning C4244: 'argument': conversion from 'clock_t' to 'GLfloat', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(592,35): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(601,64): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(619,12): warning C4244: 'initializing': conversion from 'GLfloat' to 'int', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(736,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(736,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(737,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(737,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(745,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(795,74): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(862,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(863,19): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(1095,57): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\LAB_03_Prof\LAB_03.cpp(1104,57): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  LAB_03_Prof.vcxproj -> D:\Universita\LaureaMagistrale\2Anno\2Trimestre\CG\GitHub\Offline\LAB_03\x64\Debug\LAB_03_Prof.exe

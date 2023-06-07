@@ -138,7 +138,6 @@ struct {
 	glm::vec4 position;
 	glm::vec4 target;
 	glm::vec4 upVector;
-	glm::vec4 rightVector;
 } ViewSetup;
 
 struct {
@@ -502,7 +501,6 @@ void init() {
 	ViewSetup.position = glm::vec4(10.0, 10.0, 10.0, 0.0);
 	ViewSetup.target = glm::vec4(0.0, 0.0, 0.0, 0.0);
 	ViewSetup.upVector = glm::vec4(0.0, 1.0, 0.0, 0.0);
-	ViewSetup.rightVector = glm::vec4(1.0, 0.0, 0.0, 0.0);
 	PerspectiveSetup = {};
 	PerspectiveSetup.aspect = (GLfloat)WindowWidth / (GLfloat)WindowHeight;
 	PerspectiveSetup.fovY = 45.0f;
@@ -878,20 +876,18 @@ void moveCameraBack()
 
 void moveCameraLeft()
 {
-	glm::vec3 direction = ViewSetup.target - ViewSetup.position;
-	glm::vec3 slide_vector = glm::normalize(glm::cross(direction, glm::vec3(ViewSetup.rightVector)));
-	glm::vec3 rightDirection = glm::cross(direction, slide_vector) * CAMERA_TRASLATION_SPEED;
-	ViewSetup.position += glm::vec4(rightDirection, 0.0);
-	ViewSetup.target += glm::vec4(rightDirection, 0.0);
+	glm::vec3 w = glm::normalize(ViewSetup.position - ViewSetup.target);
+	glm::vec3 u = glm::normalize(glm::cross(glm::vec3(ViewSetup.upVector), w));
+	ViewSetup.position -= glm::vec4(u, 0.0);
+	ViewSetup.target -= glm::vec4(u, 0.0);
 }
 
 void moveCameraRight()
 {
-	glm::vec3 direction = ViewSetup.target - ViewSetup.position;
-	glm::vec3 slide_vector = glm::normalize(glm::cross(glm::vec3(direction), glm::vec3(ViewSetup.rightVector)));
-	glm::vec3 rightDirection = glm::cross(direction, slide_vector) * CAMERA_TRASLATION_SPEED;
-	ViewSetup.position -= glm::vec4(rightDirection, 0.0);
-	ViewSetup.target -= glm::vec4(rightDirection, 0.0);
+	glm::vec3 w = glm::normalize(ViewSetup.position - ViewSetup.target);
+	glm::vec3 u = glm::normalize(glm::cross(glm::vec3(ViewSetup.upVector), w));
+	ViewSetup.position += glm::vec4(u, 0.0);
+	ViewSetup.target += glm::vec4(u, 0.0);
 }
 
 void moveCameraUp()
